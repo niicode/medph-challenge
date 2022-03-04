@@ -1,0 +1,64 @@
+.consul {
+  width: 50%;
+  margin: auto;
+  margin-top: 2%;
+  justify-content: space-around;
+}
+
+.consul__input {
+  width: 20%;
+  height: 30px;
+}
+
+.inputs {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.consul a {
+  text-decoration: none;
+  border: 1px solid #1dbe5d;
+  padding: 4px 8px 4px 8px;
+  color: #1dbe5d;
+}
+
+.consul_report {
+  width: 100%;
+}
+
+.consul_report textarea {
+  width: 80%;
+  margin-top: 5%;
+  margin-left: -4%;
+}
+
+.consul__button {
+  padding: 0.8rem 2.5rem 0.8rem 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 400;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.01);
+  transition: all 0.2s;
+  color: #1dbe5d;
+  background: #fff;
+  border: 1px solid #1dbe5d;
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+.consul__button:hover {
+  background: linear-gradient(to right bottom, #1dbe5d, #24a659);
+  color: #fff;
+}
+
+.consul a:hover {
+  transform: translateY(-5px);
+  background: linear-gradient(to right bottom, #1dbe5d, #24a659);
+  color: #fff;
+}
+
+.consul__form {
+  margin-top: 5%;
+  border: 1px solid ;
+  padding: 10px;
+}
